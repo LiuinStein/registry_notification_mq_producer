@@ -1,0 +1,9 @@
+spring:
+  messages:
+    basename: i18n/Messages,i18n/Pages
+  jms:
+    pub-sub-domain: false # queue
+  activemq:
+    user: admin
+    password: admin
+    broker-url: tcp://mq:61616
